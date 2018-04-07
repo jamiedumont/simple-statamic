@@ -1,0 +1,11 @@
+<div class="aspect-ratio ar--16x9 mb-6">
+
+{{ if video_url | is_embeddable }}
+  <!-- Youtube and Video -->
+  <iframe class="ar__object" src="{{ video_url | embed_url }}" ...></iframe>
+{{ else }}
+  <!-- Other HTML5 video types -->
+  <video class="ar__object" src="{{ video_url | embed_url }}" ...></video>
+{{ /if }}
+
+</div>

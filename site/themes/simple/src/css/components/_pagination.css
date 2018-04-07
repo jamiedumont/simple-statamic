@@ -1,0 +1,29 @@
+.pagination {
+
+  @apply .list-reset .text-center;
+
+  li {
+    @apply .inline-block .bg-grey-lighter .shadow .cursor-pointer .text-grey-darkest  .rounded-sm .text-center .text-sm;
+
+    a, span {
+      @apply .inline-block .no-underline .text-grey-darkest .h-8 .w-8 .pt-1;
+      line-height: 1.5rem;
+    }
+
+  }
+
+  li.disabled {
+    a, span {
+      @apply .text-grey-light .cursor-not-allowed;
+    }
+  }
+
+  li.active {
+    @apply .bg-accent;
+
+    a, span {
+      @apply .text-white;
+    }
+  }
+
+}

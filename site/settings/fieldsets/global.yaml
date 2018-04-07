@@ -1,0 +1,24 @@
+title: Globals
+taxonomies: false
+hide: true
+fields:
+  site_name:
+    type: text
+    display: Site Name
+  site_description:
+    type: textarea
+    display: Site Description
+    instructions: 'Write a brief description of your site that will be displayed in search results. (< 160 characters)'
+  contact_email:
+    type: text
+    display: Contact Email
+    instructions: "Email address used in footer. Leave blank if you don't want to share an address."
+  logo:
+    type: assets
+    display: Logo
+    instructions: Upload your logo, if you have one. It should be a JPEG, PNG or SVG.
+    container: main
+    folder: logos
+    max: 1
+    restrict: true
+    max_files: 1

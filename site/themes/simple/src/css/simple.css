@@ -1,0 +1,28 @@
+/*
+*   This injects Tailwind's base styles, which is a combination of
+*   Normalize.css and some additional base styles.
+*/
+
+@import "tailwind/_preflight";
+
+
+/* Baseline */
+@import "baseline/_body";
+
+
+/* Components */
+
+@import "components/_bard";
+@import "components/_pagination";
+
+
+
+/*
+*   This injects all of Tailwind's utility classes, generated based on your
+*   config file.
+*/
+
+@import "tailwind/_utilities";
+
+/* Further utilities */
+

@@ -1,0 +1,37 @@
+<div class="py-8">
+  <section class="mx-auto max-w-md">
+
+    <div class="text-center font-bold leading-tight mt-4 mb-16 md:mb-32 px-4">
+      <h2 class="text-xl my-0">
+        {{ page_subtitle }}
+      </h2>
+      <h1 class="mt-4 pt-4 text-3xl md:text-5xl border-t border-grey-lighter">
+        {{ page_title }}
+      </h1>
+    </div>
+
+    <div class="max-w-sm mx-auto leading-normal">
+      <h3 class="text-sm text-grey-light tracking-wide uppercase font-semibold mt-16 mb-8">Articles</h3>
+      <ul class="list-reset">
+
+        {{ collection:posts limit="10" paginate="true" as="posts"  }}
+
+        {{ posts }}
+          {{ partial:post-preview }}
+        {{ /posts }}
+
+        {{ paginate }}
+
+          {{ if total_pages > 1 }}
+            {{ partial:pagination }}
+            {{ /if }}
+
+        {{ /paginate }}
+
+        {{ /collection:posts }}
+      </ul>
+    </div>
+
+  </section>
+
+</div>

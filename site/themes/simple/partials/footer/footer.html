@@ -1,0 +1,30 @@
+<footer class="my-8 max-w-md mx-auto">
+
+  <div class="p-10 border-2 border-accent rounded text-center">
+
+    <span class="block mb-2 text-lg font-semibold">Stay updated.</span>
+    <p class="max-w-sm mb-4 mx-auto leading-normal text-xs font-light">
+      Get behind-the-scenes updates on my latest articles and projects by signing up to my fortnightly newsletter.
+    </p>
+
+    <form class="">
+      <div class="flex text-xs rounded">
+        <input class="flex-1 border-grey-lighter border shadow rounded-l bg-white overflow-scroll text-grey-darker py-3 px-4" type="text" placeholder="youremail@domain.com">
+        <button class="font-semibold uppercase flex-no-shrink shadow rounded-r bg-accent text-white px-6" type="button">
+          Sign Up
+        </button>
+      </div>
+    </form>
+  </div>
+
+  <div class="mt-6 pt-6 border-t border-grey-lighter">
+    <ul class="list-reset text-sm">
+      {{ partial:footer/menu-item url="/" caption="Home" }}
+      {{ partial:footer/menu-item url="/about" caption="About" }}
+      {{ if contact_email }}
+        {{ partial:footer/menu-item url="mailto:{ email }" caption="Contact" }}
+      {{ /if }}
+    </ul>
+  </div>
+
+</footer>

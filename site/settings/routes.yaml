@@ -1,0 +1,2 @@
+collections:
+  posts: '/blog/{slug}'

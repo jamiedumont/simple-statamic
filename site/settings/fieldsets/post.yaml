@@ -1,0 +1,56 @@
+title: Post
+taxonomies: false
+hide: true
+fields:
+  meta_description:
+    type: textarea
+    display: Description
+    instructions: Short summary of the article used in post previews and search engine results
+  content_area:
+    type: bard
+    display: Content
+    spellcheck: true
+    allow_source: true
+    force_plain_text: true
+    container: main
+    folder: Images
+    sets:
+      image_with_caption:
+        display: Image with caption
+        fields:
+          caption:
+            type: text
+            display: Caption
+          image:
+            type: assets
+            display: Image
+            container: main
+            folder: Images
+            max_files: 1
+            mode: grid
+            restrict: true
+        instructions: A full width image, with a caption underneath.
+      three_images:
+        display: Three Images
+        instructions: 3 square images that span the width of the content area, and stack vertically on mobile
+        fields:
+          images:
+            type: assets
+            display: Images
+            instructions: Select three images.
+            container: main
+            folder: Images
+            max_files: 3
+            restrict: true
+      video:
+        display: Video
+        fields:
+          video_url:
+            type: video
+            display: Video
+            instructions: 'Paste the URL of a YouTube or Vimeo link. More info [in the Statamic docs.](https://docs.statamic.com/fieldtypes/video)'
+    autoLink: true
+    target_blank: true
+    link_validation: true
+    restrict_assets: true
+    clean_pasted_html: false

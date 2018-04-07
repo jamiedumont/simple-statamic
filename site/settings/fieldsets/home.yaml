@@ -1,0 +1,12 @@
+title: Home
+taxonomies: false
+hide: true
+fields:
+  page_title:
+    type: text
+    display: Title
+    instructions: The larger text.
+  page_subtitle:
+    type: text
+    display: Subtitle
+    instructions: The smaller text.

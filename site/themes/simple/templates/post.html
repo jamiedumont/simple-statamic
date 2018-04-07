@@ -1,0 +1,12 @@
+<div class="my-16 max-w-md mx-auto py-8">
+  <h1 class="text-2xl font-bold my-4">{{ title }}</h1>
+  <div class="mb-8 text-grey text-sm">
+    <span>{{ date }}</span>
+  </div>
+
+  <div class="bard mb-16">
+    {{ content_area }} 
+      {{ partial src="content_sets/{type}" }}
+    {{ /content_area }}
+  </div>
+</div>
