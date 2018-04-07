@@ -10,6 +10,7 @@ The newsletter subscription form is left without an action to allow you to creat
 
 1. Install Statamic following the instructions in the [docs](https://docs.statamic.com/installing)
 2. Replace the `/site` and `/assets` folders with the ones from this repo.
+3. Create a new user using `php please make:user` if you wish to use the Control Panel
 
 To customise the theme's styling:
 
