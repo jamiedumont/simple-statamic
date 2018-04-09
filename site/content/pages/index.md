@@ -1,5 +1,5 @@
 page_title: 'Building for the web & creating durable businesses.'
-page_subtitle: 'Jamie Dumont. <span class="block md:inline">Developer based in Cornwall.</span>'
+page_subtitle: 'Your name here. <span class="block md:inline">Developer based in...</span>'
 title: Home
 template: home
 fieldset: home

@@ -6,6 +6,8 @@ The styling uses [TailwindCSS](https://tailwindcss.com) which is becoming very p
 
 The newsletter subscription form is left without an action to allow you to create a Statamic form to capture people's address, or send it to your choice of mailing list software (e.g. Mailchimp).
 
+The site is lightweight and fast, with most pages weighing in at ~350kB (before images) for really quick loading times! All images are optimised with Glide.
+
 ## Getting started
 
 1. Install Statamic following the instructions in the [docs](https://docs.statamic.com/installing)

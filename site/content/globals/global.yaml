@@ -1,5 +1,6 @@
 site_name: Simple
 site_description: A simple Statamic theme to get you blogging quickly.
-logo: /assets/logos/logo.svg
+contact_email: you@test.com
+logo: /assets/logos/demo-logo.png
 fieldset: global
 id: af81257f-ce72-41ee-92dc-c782e9675cc8

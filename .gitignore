@@ -4,6 +4,7 @@ node_modules/
 bower_components/
 local
 statamic
+site/users/*
 installer.php
 phpunit.xml
 please
