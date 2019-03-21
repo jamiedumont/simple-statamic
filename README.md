@@ -22,4 +22,4 @@ To customise the theme's styling:
 4. Run `brunch build` or `brunch watch` to compile the CSS and JS from `/site/themes/simple/src` to `/site/themes/simple/[css,js]`
 
 ## Support
-For any help installing or customising the theme, please just [email me](mailto:jamiedumont@icloud.com)
+I no longer actively work with Statamic, so won't be providing ongoing support. If you're having issues then I can thoroughly reccommend the Statamic Discord server as a great place to find help.
